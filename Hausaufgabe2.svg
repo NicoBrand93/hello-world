@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+		<defs>
+	
+			<clipPath id="Mask">
+			
+				<polyline points="0,0 100,100 0,200 200,200 200,0 0,0" />
+			
+			</clipPath>
+		
+		
+				<circle id="Kreis" cx="100" cy="100" r="100" fill="black" clip-path="url(#Mask)"/>
+	
+	
+			<g id="2Pacs">
+		
+				<use xlink:href="#Kreis" transform="rotate(270 100,100)"/>
+				<use xlink:href="#Kreis" transform="translate(275, 100)rotate(90)"/>
+		
+			</g>
+	
+		</defs>
+
+		
+		<g id="Gruppe">
+
+			<use xlink:href="#2Pacs" transform="translate(0,100)rotate(90 200,100)"/>	
+			<use xlink:href="#2Pacs" transform="translate(40,315) rotate(90 200,100)" />
+			<use xlink:href="#2Pacs" transform="translate(80,530) rotate(90 200,100)" />
+		
+    	</g>
+
+    	<use xlink:href="#Gruppe" transform="translate(300,0)"/>
+    	<use xlink:href="#Gruppe" transform="translate(600,0)"/>
+
+
+</svg>
