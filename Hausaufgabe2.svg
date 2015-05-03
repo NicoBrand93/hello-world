@@ -27,6 +27,8 @@
 			<use xlink:href="#2Pacs" transform="translate(0,100)rotate(90 200,100)"/>	
 			<use xlink:href="#2Pacs" transform="translate(40,315) rotate(90 200,100)" />
 			<use xlink:href="#2Pacs" transform="translate(80,530) rotate(90 200,100)" />
+			
+	<!-- texte --!> 
 		
     	</g>
 
